@@ -1,0 +1,45 @@
+body{
+  background-color: blue;
+  text-align: center;
+}
+
+.idk{
+  font-size: 100px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-top: 500px;
+}
+.idk:hover{
+  color: red;
+
+}
+
+.text{
+  font-size: 70px;
+  color: black;
+
+}
+
+.zpet{
+  font-size: 100px;
+  text-decoration: none;
+}
+
+.img{
+  position: fixed;
+  margin-left: auto;
+  margin-top: auto;
+  width: 120px;
+  height: 120px;
+}
+
+.celkem{
+  font-size: 100px;
+  text-decoration: none;
+  color: red;
+}
+
+h1{color: blue;}
+h2{color: blue;}
+h3{color: blue;}

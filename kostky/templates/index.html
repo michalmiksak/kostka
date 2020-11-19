@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="\static\styles\custom.css" type="text/css">
+<title>Kostky</title>
+</head>
+    <body>
+        <div class="text" > Hráč hodil:
+            {% for i in hrac %}
+            {{i}}
+            {% endfor %}
+        </div>
+            {% for i in hrac %}
+                <img class = "img" src ="/static/img/{{i}}.png "width= 50px>
+            {% endfor %}
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+        <div class="text"> Počítač hodil:
+            {% for i in pocitac %}
+            {{i}}
+            {% endfor %}
+        </div>
+            {% for i in pocitac %}
+        <img class = "img" src="/static/img/{{i}}.png "width= 50px>
+            {% endfor %}
+                <br><br><br><br><br><br><br><br><br><br>
+
+ <div class="text"> <a class="text"> Výsledek: {{vysledek}} </a></div><br> <br> <br>
+    <a class="celkem"> Počítač vyhrál: {{pc}}</a>
+ <br>
+    <a class="celkem"> Hráč vyhrál: {{hr}}</a>
+ <br>
+    <a class="celkem"> Remíza: {{no}}</a>
+ <br><br><br>
+
+ <form action="/">
+    <input class="zpet" type="submit" value="Zpět" />
+        </form>
+    </body>
+</html>
